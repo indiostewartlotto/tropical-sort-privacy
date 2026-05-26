@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Privacy policy for Tropical Sort — a casual fruit-sort puzzle mobile game by Stewart Rodulfo.">
+  <title>Privacy Policy — Tropical Sort</title>
+  <style>
+    :root {
+      --ink: #2c1a00;
+      --muted: #6b5840;
+      --gold: #ffb300;
+      --accent: #1a0d00;
+      --bg: #fffaf0;
+      --link: #b3590a;
+      --rule: #f0e0c0;
+    }
+    * { box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 48px 24px 96px;
+      color: var(--ink);
+      background: var(--bg);
+      line-height: 1.6;
+      font-size: 16px;
+    }
+    header {
+      border-bottom: 2px solid var(--gold);
+      padding-bottom: 24px;
+      margin-bottom: 32px;
+    }
+    h1 {
+      font-size: 32px;
+      margin: 0 0 8px;
+      color: var(--accent);
+      letter-spacing: -0.02em;
+    }
+    .last-updated {
+      color: var(--muted);
+      font-style: italic;
+      font-size: 14px;
+      margin: 0;
+    }
+    h2 {
+      color: var(--accent);
+      font-size: 22px;
+      margin-top: 36px;
+      margin-bottom: 12px;
+      padding-bottom: 6px;
+      border-bottom: 1px solid var(--rule);
+    }
+    h3 {
+      color: var(--ink);
+      font-size: 17px;
+      margin-top: 24px;
+      margin-bottom: 8px;
+    }
+    p, li {
+      color: var(--ink);
+    }
+    a {
+      color: var(--link);
+      text-decoration: underline;
+      text-decoration-thickness: 1.5px;
+      text-underline-offset: 2px;
+    }
+    a:hover { color: var(--accent); }
+    ul {
+      padding-left: 22px;
+    }
+    li { margin-bottom: 6px; }
+    code {
+      background: #f5e8c8;
+      padding: 1px 6px;
+      border-radius: 4px;
+      font-size: 0.92em;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 16px 0;
+      font-size: 14px;
+    }
+    th, td {
+      text-align: left;
+      padding: 10px 12px;
+      border-bottom: 1px solid var(--rule);
+    }
+    th {
+      background: #fdf2d8;
+      color: var(--accent);
+    }
+    .tldr {
+      background: #fff2cc;
+      border-left: 4px solid var(--gold);
+      padding: 16px 20px;
+      border-radius: 6px;
+      margin: 20px 0;
+    }
+    .tldr h2 {
+      border: none;
+      margin: 0 0 8px;
+      font-size: 18px;
+    }
+    .tldr ul { margin: 0; padding-left: 20px; }
+    .tldr li { margin-bottom: 4px; }
+    .contact {
+      background: #fff5e0;
+      border-radius: 8px;
+      padding: 20px;
+      margin-top: 24px;
+    }
+    footer {
+      margin-top: 64px;
+      padding-top: 24px;
+      border-top: 1px solid var(--rule);
+      text-align: center;
+      color: var(--muted);
+      font-size: 13px;
+    }
+    .emoji { font-size: 1.1em; }
+    strong { color: var(--accent); }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Privacy Policy — Tropical Sort <span class="emoji">🍍</span></h1>
+    <p class="last-updated">Last updated: May 26, 2026</p>
+  </header>
+
+  <p>This Privacy Policy describes how Tropical Sort ("we", "us", "the app") collects, uses, and protects information when you play the mobile game Tropical Sort.</p>
+
+  <div class="tldr">
+    <h2>TL;DR</h2>
+    <ul>
+      <li>We do <strong>not</strong> ask you for your name, email, phone number, or any contact information to play.</li>
+      <li>We create an anonymous, randomly-generated account for you so your progress can sync if you reinstall.</li>
+      <li>We track gameplay events (e.g. levels completed, time on level, lives remaining) to balance difficulty and fix bugs.</li>
+      <li>We do <strong>not</strong> sell your data.</li>
+      <li>If you want your data deleted, email <a href="mailto:indiostewartlotto@gmail.com">indiostewartlotto@gmail.com</a>.</li>
+    </ul>
+  </div>
+
+  <h2>1. Information we collect</h2>
+
+  <h3>1.1 Anonymous account identifier</h3>
+  <p>When you first launch the app, we automatically create an anonymous account through our backend provider, Supabase. This account is a random UUID. It is <strong>not</strong> linked to your name, email, Apple ID, Google account, or device contacts.</p>
+
+  <h3>1.2 Gameplay data</h3>
+  <p>We store the following so your progress is preserved across sessions and devices:</p>
+  <ul>
+    <li>Levels completed, stars earned, and best speed-run times per level.</li>
+    <li>Coin and gem balances, lives count, and daily-login streak.</li>
+    <li>Achievements unlocked.</li>
+  </ul>
+
+  <h3>1.3 Analytics events</h3>
+  <p>We log gameplay events to understand which levels are too hard, which features are used, and where players drop off. Events include:</p>
+  <ul>
+    <li>Level start, level complete, level fail, level quit</li>
+    <li>Hint usage, power-up usage, share-button taps</li>
+    <li>Daily streak updates and lives consumed</li>
+    <li>Tutorial step completion</li>
+  </ul>
+  <p>Each event includes the event name, level number, world, and a small metadata blob (e.g. moves used). Events are tied to your anonymous account ID.</p>
+
+  <h3>1.4 Device information</h3>
+  <p>On first launch we record the device's country code (from system locale) to understand geographic distribution. We do <strong>not</strong> record IMEI, advertising ID, MAC address, or precise location.</p>
+
+  <h3>1.5 Crash and performance data</h3>
+  <p>The app uses Flutter's built-in crash reporting. If the app crashes, a stack trace may be recorded by the operating system (Apple / Google) according to their own privacy policies. We do not currently operate a separate crash reporter.</p>
+
+  <h2>2. What we do NOT collect</h2>
+  <ul>
+    <li>We do not collect your name, email, phone number, or postal address.</li>
+    <li>We do not access your camera, microphone, contacts, photo library, or precise location.</li>
+    <li>We do not record audio.</li>
+    <li>We do not use cross-app trackers or advertising identifiers (no IDFA / GAID).</li>
+  </ul>
+
+  <h2>3. How we use the information</h2>
+  <ul>
+    <li>To save your progress so reinstalling the app does not lose your levels.</li>
+    <li>To balance level difficulty based on aggregate completion / failure data.</li>
+    <li>To diagnose bugs and crashes.</li>
+    <li>To prevent fraud and abuse (e.g. detecting impossible scores).</li>
+    <li>To improve the game in future updates.</li>
+  </ul>
+
+  <h2>4. Advertising and in-app purchases</h2>
+  <p>This version of the app <strong>does not display advertisements</strong> and does not contain in-app purchases. If a future version adds either, this policy will be updated to disclose what third-party ad networks (e.g. Google AdMob) or billing systems (Apple App Store, Google Play Billing) are used, and what data they receive.</p>
+
+  <h2>5. Third-party services</h2>
+  <p>We share data with the following services for the purposes described:</p>
+  <table>
+    <thead>
+      <tr><th>Service</th><th>Purpose</th><th>Data shared</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Supabase (<a href="https://supabase.com">supabase.com</a>)</td>
+        <td>Database hosting for your progress and analytics events</td>
+        <td>Anonymous user ID, gameplay data, event logs</td>
+      </tr>
+      <tr>
+        <td>Apple App Store / Google Play</td>
+        <td>App distribution and crash reporting</td>
+        <td>Per Apple / Google's own privacy policies</td>
+      </tr>
+    </tbody>
+  </table>
+  <p>We do not use ad networks, marketing analytics SDKs, or behavioral-targeting platforms.</p>
+
+  <h2>6. Children</h2>
+  <p>Tropical Sort is rated suitable for all ages (PEGI 3 / ESRB Everyone). We do <strong>not</strong> knowingly collect personal information from children under 13 (or under 16 in the European Union). Because we do not collect names, emails, or contact information from anyone, the only data tied to a child playing the game would be the anonymous account ID and gameplay events.</p>
+  <p>If you are a parent or guardian and want all data tied to your child's anonymous account deleted, email <a href="mailto:indiostewartlotto@gmail.com">indiostewartlotto@gmail.com</a> with the date and approximate time of first launch and we will delete all matching records.</p>
+
+  <h2>7. Data retention</h2>
+  <ul>
+    <li>Your anonymous account and progress data are retained indefinitely so the game can restore progress if you reinstall.</li>
+    <li>Analytics events are retained for up to 24 months and then aggregated or deleted.</li>
+    <li>If you request deletion (see Section 9), all data is deleted within 30 days.</li>
+  </ul>
+
+  <h2>8. Where data is stored</h2>
+  <p>Data is stored on Supabase's hosted infrastructure (currently US-based servers). By using the app you consent to the transfer of this data to the United States.</p>
+
+  <h2>9. Your rights</h2>
+  <p>You may request, at any time and at no cost, that we:</p>
+  <ul>
+    <li>Provide a copy of all data tied to your anonymous account.</li>
+    <li>Delete all data tied to your anonymous account.</li>
+  </ul>
+  <p>To exercise either right, email <a href="mailto:indiostewartlotto@gmail.com">indiostewartlotto@gmail.com</a> from any email address. Because we do not link accounts to email addresses, you will need to provide:</p>
+  <ul>
+    <li>The approximate date you first installed the app</li>
+    <li>Your device OS (iOS / Android)</li>
+    <li>(Optional but helpful) the highest level you have completed</li>
+  </ul>
+  <p>We will respond within 30 days.</p>
+  <p>EU and UK residents have additional rights under GDPR, including the right to object to processing and the right to lodge a complaint with your local data protection authority. California residents have rights under the CCPA, including the right to know, the right to delete, and the right to opt out of any sale of personal information. <strong>We do not sell personal information.</strong></p>
+
+  <h2>10. Security</h2>
+  <p>Data is transmitted over HTTPS / TLS. Supabase enforces row-level security so a player can only read their own account row. Server-side functions validate sensitive operations (e.g. coin grants) so client-side tampering cannot inflate balances.</p>
+  <p>No system is perfectly secure. If we discover a breach affecting your data, we will notify affected users via in-app message and update this page.</p>
+
+  <h2>11. Changes to this policy</h2>
+  <p>If we make material changes to this policy we will update the "Last updated" date at the top and surface a notice inside the app on next launch. Continued use of the app after the effective date constitutes acceptance of the new policy.</p>
+
+  <h2>12. Contact</h2>
+  <div class="contact">
+    <p><strong>Email:</strong> <a href="mailto:indiostewartlotto@gmail.com">indiostewartlotto@gmail.com</a><br>
+    <strong>Developer:</strong> Stewart Rodulfo / Tropical Sort</p>
+  </div>
+
+  <p style="margin-top: 32px; text-align: center; font-size: 20px;">Thank you for playing Tropical Sort. <span class="emoji">🍍</span></p>
+
+  <footer>
+    <p>© 2026 Stewart Rodulfo. All rights reserved.</p>
+  </footer>
+</body>
+</html>
